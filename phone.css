@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #9fa55d;
+}
+nav {
+    background-color: #9fa55d;
+    border-bottom: 1.5px solid white;
+}
+nav a:hover {
+    color: #7f3422;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	padding-bottom: 3%;  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}
+
+.card-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.card:hover .card-img {
+  opacity: 0.6;
+}
+.card:hover .card-img-overlay {
+  opacity: 30;
+}
+.card-text {
+  color: white;
+  font-size: .5em;
+}
+b{ 
+font-size: .6
+    em;}
+footer{
+     background-color: #9fa55d;
+     padding:30px 0px;
+     border-top: 1.5px solid white;
+}	       
+
+.logo , h1{
+    color: white;
+    font-weight:700;
+    font-size:.6em;
+}
+
+.address span , .menu span{
+   color: white; 
+   font-weight: bold; 
+   border-bottom: 1px solid white; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: .5em;
+   letter-spacing: 1%;
+}
+ 
+.address li a , .menu li a, p , nav{
+    color: white;
+    letter-spacing: 1%;
+    text-decoration:none;
+    font-size:.5em;
+}
+
+.address li, .menu li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #7f3422;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #7f3422;
+    margin-right: 10px;
+    font-size:.5em;
+}
